@@ -1,0 +1,12 @@
+@url_dev=http://localhost:3052/v1/api
+### signup
+
+POST {{url_dev}}/shop/signup
+Content-Type: application/json
+x-api-key: 613967ccce4b199e04b79f480226165c0c500510c67d13cd2375521ee533089794e301fbe1d9087e5d9d54c959aa384ce7f08c5e87aae933ef69de80cd85e7c5
+
+{
+    "name": "Shop TIPS",
+    "email": "shoptipjs18@gmail.com",
+    "password": "abc123"
+}
